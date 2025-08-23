@@ -1,6 +1,24 @@
 import { cn } from "@/lib/utils";
 import type { HTMLAttributes } from "react";
 
+
+export const HeadingXl = ({
+	children,
+	className,
+	...props
+}: HTMLAttributes<HTMLHeadingElement>) => {
+	return (
+		<h1
+			className={cn(
+				"md:text-[64px] md:leading-[72px] text-5xl font-bold",
+				className
+			)}
+			{...props}>
+			{children}
+		</h1>
+	);
+};
+
 export const HeadingMd = ({
 	children,
 	className,
@@ -33,6 +51,23 @@ export const HeadingXs = ({
 			{...props}>
 			{children}
 		</h4>
+	);
+};
+
+export const BodySmParagraph = ({
+	children,
+	className,
+	...props
+}: HTMLAttributes<HTMLParagraphElement>) => {
+	return (
+		<p
+			className={cn(
+				"text-sm leading-5 text-secondary/70",
+				className
+			)}
+			{...props}>
+			{children}
+		</p>
 	);
 };
 
