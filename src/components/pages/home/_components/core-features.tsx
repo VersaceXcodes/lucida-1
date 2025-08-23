@@ -23,7 +23,7 @@ const CoreFeatures = () => {
 					<div
 						key={feature.title}
 						className="flex flex-col items-center gap-[14px] text-center">
-						<div className="bg-violet-60/10 size-12 rounded-full grid place-content-center">
+						<div className="bg-violet-60/10 size-12 rounded-full grid place-content-center text-[20px]">
 							{feature.icon}
 						</div>
 						<BodyLgParagraph className="font-semibold">{feature.title}</BodyLgParagraph>

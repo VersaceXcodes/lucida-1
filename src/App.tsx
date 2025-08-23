@@ -3,6 +3,7 @@ import HomePage from "./components/pages/home";
 import MainLayout from "./components/layout/main-layout";
 import CareersPage from "./components/pages/careers";
 import ContactPage from "./components/pages/contact";
+import BecomePartnerPages from "./components/pages/become-partner";
 
 const App = () => {
 	return (
@@ -21,6 +22,10 @@ const App = () => {
 				<Route
 					path="contact"
 					element={<ContactPage />}
+				/>
+				<Route
+					path="features"
+					element={<BecomePartnerPages />}
 				/>
 			</Route>
 		</Routes>
