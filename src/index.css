@@ -4,6 +4,12 @@
 	--color-neutral-5: #f7f7f7;
 	--color-primary: #1d1d1d;
 	--color-secondary: #0a0a0a;
+	--color-violet-5: #faf7ff;
+	--color-violet-60: #6528d8;
+	--color-faqborderOpen: rgba(10, 10, 10, 0.16);
+	--color-faqborderClose: rgba(10, 10, 10, 0.1);
+
+	--font-jetbrains: "JetBrains Mono", monospace;
 }
 
 html {

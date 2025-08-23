@@ -6,12 +6,15 @@ const DownloadApp = () => {
 			<div
 				className="max-w-[1110px] mx-auto relative rounded-3xl overflow-hidden"
 				style={{
+					
 					boxShadow:
 						"0 -0.5px 0 0 rgba(0, 0, 0, 0.12) inset, 0 1px 2px -0.5px rgba(0, 0, 0, 0.08)",
 				}}>
 				<img
-					src="./images/download-app-bg.png"
+					src="./images/download-app-bg.webp"
 					className="absolute inset-0 w-full h-full object-cover"
+					fetchPriority="high"
+					loading="lazy"
 					alt="Download App"
 				/>
 				<div className="flex justify-between px-9 relative items-center md:gap-6 max-md:flex-col">
@@ -28,6 +31,7 @@ const DownloadApp = () => {
 								<img
 									src="./images/appstore.svg"
 									className="h-10 w-auto"
+									fetchPriority="high"
 									alt="Download on the App Store"
 								/>
 							</a>
@@ -35,14 +39,16 @@ const DownloadApp = () => {
 								<img
 									src="./images/google-play.svg"
 									className="h-10 w-auto"
+									fetchPriority="high"
 									alt="Download on Google Play"
 								/>
 							</a>
 						</div>
 					</div>
 					<img
-						src="./images/download-app-iphone.png"
-						className="realtive md:w-1/2 w-[80%] max-w-[370px] h-auto mt-[45px] mr-2"
+						src="./images/download-app-iphone.webp"
+						className="realtive md:w-1/2 w-[90%] max-w-[370px] h-auto md:mt-[45px] mt-6 md:mr-2"
+						fetchPriority="high"
 						alt=""
 					/>
 				</div>
