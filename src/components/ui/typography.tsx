@@ -35,6 +35,23 @@ export const BodyMdParagraph = ({
 	);
 };
 
+export const BodyLgParagraph = ({
+	children,
+	className,
+	...props
+}: HTMLAttributes<HTMLParagraphElement>) => {
+	return (
+		<p
+			className={cn(
+				"text-[18px] text-primary leading-7 tracking-[-0.18px]",
+				className
+			)}
+			{...props}>
+			{children}
+		</p>
+	);
+};
+
 export const CodeMdParagraph = ({
 	children,
 	className,
