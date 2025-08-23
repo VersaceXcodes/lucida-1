@@ -5,7 +5,7 @@ import {
 	CodeMdParagraph,
 	HeadingMd,
 } from "@/components/ui/typography";
-import { CORE_FEATURES } from "@/constants/core-features";
+import { CORE_FEATURES } from "@/constants/features";
 
 const CoreFeatures = () => {
 	return (
@@ -18,7 +18,7 @@ const CoreFeatures = () => {
 					using our user-friendly mobile app designed for your convenience.
 				</BodyMdParagraph>
 			</div>
-			<div className="max-w-[1110px] mx-auto md:mt-24 mt-12 grid md:gap-x-11 md:gap-y-24 gap-y-12 md:grid-cols-3 sm:grid-cols-2">
+			<div className="max-w-[1110px] mx-auto md:mt-24 mt-12 grid gap-x-11 md:gap-y-24 gap-y-12 md:grid-cols-3 sm:grid-cols-2">
 				{CORE_FEATURES.map((feature) => (
 					<div
 						key={feature.title}

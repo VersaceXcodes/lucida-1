@@ -18,6 +18,24 @@ export const HeadingMd = ({
 	);
 };
 
+
+export const HeadingXs = ({
+	children,
+	className,
+	...props
+}: HTMLAttributes<HTMLHeadingElement>) => {
+	return (
+		<h4
+			className={cn(
+				"md:text-2xl md:leading-[30px] text-xl font-semibold",
+				className
+			)}
+			{...props}>
+			{children}
+		</h4>
+	);
+};
+
 export const BodyMdParagraph = ({
 	children,
 	className,

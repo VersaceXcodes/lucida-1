@@ -108,3 +108,24 @@ export const CORE_FEATURES = [
 			"Built on a solid foundation, our app ensures reliability and scalability as your needs grow.",
 	},
 ];
+
+export const FEATURES_CARDS = [
+	{
+		img: "./images/features/1.webp",
+		title: "A rad place to hang out.",
+		content:
+			"Easily chat with experts and keep track of your projects on the go with our super easy mobile app made just for you.",
+	},
+	{
+		img: "./images/features/2.webp",
+		title: "Search by categories.",
+		content:
+			"Easily chat with experts and keep track of your projects on the go with our super easy mobile app made just for you.",
+	},
+	{
+		img: "./images/features/2.webp",
+		title: "A sweet place to roam.",
+		content:
+			"Easily chat with experts and keep track of your projects on the go with our super easy mobile app made just for you.",
+	},
+];
