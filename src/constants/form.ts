@@ -1,0 +1,17 @@
+export const designTopics = [
+	{ value: "ui_design", label: "UI Design" },
+	{ value: "ux_design", label: "UX Design" },
+	{ value: "wireframing", label: "Wireframing" },
+	{ value: "prototyping", label: "Prototyping" },
+	{ value: "usability_testing", label: "Usability Testing" },
+	{ value: "design_systems", label: "Design Systems" },
+	{ value: "visual_design", label: "Visual Design" },
+	{ value: "interaction_design", label: "Interaction Design" },
+	{ value: "information_architecture", label: "Information Architecture" },
+	{ value: "accessibility", label: "Accessibility" },
+	{ value: "motion_design", label: "Motion Design" },
+	{ value: "design_thinking", label: "Design Thinking" },
+	{ value: "responsive_design", label: "Responsive Design" },
+	{ value: "product_strategy", label: "Product Strategy" },
+	{ value: "user_research", label: "User Research" },
+];

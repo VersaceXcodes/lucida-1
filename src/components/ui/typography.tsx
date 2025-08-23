@@ -36,6 +36,23 @@ export const HeadingMd = ({
 	);
 };
 
+export const HeadingSm = ({
+	children,
+	className,
+	...props
+}: HTMLAttributes<HTMLHeadingElement>) => {
+	return (
+		<h3
+			className={cn(
+				"md:text-[28px] md:leading-[36px] text-2xl font-semibold",
+				className
+			)}
+			{...props}>
+			{children}
+		</h3>
+	);
+};
+
 
 export const HeadingXs = ({
 	children,
