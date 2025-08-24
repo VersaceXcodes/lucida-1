@@ -4,6 +4,7 @@ import MainLayout from "./components/layout/main-layout";
 import CareersPage from "./components/pages/careers";
 import ContactPage from "./components/pages/contact";
 import BecomePartnerPages from "./components/pages/become-partner";
+import HeroPage from "./components/pages/hero";
 
 const App = () => {
 	return (
@@ -28,6 +29,10 @@ const App = () => {
 					element={<BecomePartnerPages />}
 				/>
 			</Route>
+			<Route
+				path="hero"
+				element={<HeroPage />}
+			/>
 		</Routes>
 	);
 };
