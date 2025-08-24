@@ -7,11 +7,13 @@ import PresentationOne from "./_components/presentation-one";
 import PresentationTwo from "./_components/presentation-two";
 import PresentationThree from "./_components/presentation-three";
 import HomeHero from "./_components/home-hero";
+import { useTranslation } from "react-i18next";
 
 const HomePage = () => {
+	const { i18n } = useTranslation();
 	return (
 		<>
-			<HomeHero />
+			{i18n.language === "ar" ? <HomeHero /> : <HomeHero />}
 			<CoreFeatures />
 			<PresentationOne />
 			<PresentationTwo />

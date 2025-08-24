@@ -1,10 +1,12 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router";
 
 const Header = () => {
 	const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+	const {t} = useTranslation()
 	return (
 		<div className="w-full flex justify-between items-center md:px-11 px-6 py-7 bg-white relative z-20">
 			<Link
@@ -29,18 +31,18 @@ const Header = () => {
 				<Link
 					to={"/features"}
 					className="py-1.5 px-3 text-secondary/70 transition-colors duration-300 hover:text-secondary">
-					Features
+					{t("layout.header.features")}
 				</Link>
 				<Link
 					to={"/careers"}
 					className="py-1.5 px-3 text-secondary/70 transition-colors duration-300 hover:text-secondary">
-					Careers
+					{t("layout.header.careers")}
 				</Link>
 				<div className="h-6 w-[1px] bg-faqborderClose max-md:hidden"></div>
 				<Link
 					to={"/contact"}
 					className="py-1.5 px-3 text-secondary/70 transition-colors duration-300 hover:text-secondary">
-					Get support
+					{t("layout.header.getSupport")}
 				</Link>
 				<a
 					href="/"
@@ -70,7 +72,7 @@ const Header = () => {
 						/>
 					</svg>
 					<div className="h-6 w-[1px] bg-faqborderClose"></div>
-					<span>Download</span>
+					<span>{t("layout.header.download")}</span>
 				</a>
 			</div>
 			<button
@@ -90,20 +92,20 @@ const Header = () => {
 							onClick={() => setIsMenuOpen(false)}
 							to={"/features"}
 							className="py-1.5 px-3 text-secondary/70 transition-colors duration-300 hover:text-secondary">
-							Features
+							{t("layout.header.features")}
 						</Link>
 						<Link
 							to={"/careers"}
 							onClick={() => setIsMenuOpen(false)}
 							className="py-1.5 px-3 text-secondary/70 transition-colors duration-300 hover:text-secondary">
-							Careers
+							{t("layout.header.careers")}
 						</Link>
 						<div className="h-6 w-[1px] bg-faqborderClose max-md:hidden"></div>
 						<Link
 							to={"/contact"}
 							onClick={() => setIsMenuOpen(false)}
 							className="py-1.5 px-3 text-secondary/70 transition-colors duration-300 hover:text-secondary">
-							Get support
+							{t("layout.header.getSupport")}
 						</Link>
 						<a
 							href="/"
@@ -134,7 +136,7 @@ const Header = () => {
 								/>
 							</svg>
 							<div className="h-6 w-[1px] bg-faqborderClose"></div>
-							<span>Download</span>
+							<span>{t("layout.header.download")}</span>
 						</a>
 					</motion.div>
 				)}
