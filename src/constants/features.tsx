@@ -109,23 +109,45 @@ export const CORE_FEATURES = [
 	},
 ];
 
-export const FEATURES_CARDS = [
-	{
-		img: "./images/features/1.webp",
-		title: "A rad place to hang out.",
-		content:
-			"Easily chat with experts and keep track of your projects on the go with our super easy mobile app made just for you.",
-	},
-	{
-		img: "./images/features/2.webp",
-		title: "Search by categories.",
-		content:
-			"Easily chat with experts and keep track of your projects on the go with our super easy mobile app made just for you.",
-	},
-	{
-		img: "./images/features/2.webp",
-		title: "A sweet place to roam.",
-		content:
-			"Easily chat with experts and keep track of your projects on the go with our super easy mobile app made just for you.",
-	},
-];
+export const FEATURES_CARDS = {
+	en: [
+		{
+			img: "./images/features/1.webp",
+			title: "A rad place to hang out.",
+			content:
+				"Easily chat with experts and keep track of your projects on the go with our super easy mobile app made just for you.",
+		},
+		{
+			img: "./images/features/2.webp",
+			title: "Search by categories.",
+			content:
+				"Easily chat with experts and keep track of your projects on the go with our super easy mobile app made just for you.",
+		},
+		{
+			img: "./images/features/2.webp",
+			title: "A sweet place to roam.",
+			content:
+				"Easily chat with experts and keep track of your projects on the go with our super easy mobile app made just for you.",
+		},
+	],
+	ar: [
+		{
+			img: "./images/features/1.webp",
+			title: "مكان رائع للتجمع",
+			content:
+				"تواصل بسهولة مع الخبراء واحتفظ بسجل لمشاريعك أثناء التنقل مع تطبيقنا المحمول السهل المصمم خصيصًا لك",
+		},
+		{
+			img: "./images/features/2.webp",
+			title: "ابحث حسب الفئات",
+			content:
+				"تواصل بسهولة مع الخبراء واحتفظ بسجل لمشاريعك أثناء التنقل مع تطبيقنا المحمول السهل المصمم خصيصًا لك",
+		},
+		{
+			img: "./images/features/2.webp",
+			title: "مكان لطيف للتجول",
+			content:
+				"تواصل بسهولة مع الخبراء واحتفظ بسجل لمشاريعك أثناء التنقل مع تطبيقنا المحمول السهل المصمم خصيصًا لك",
+		},
+	],
+};

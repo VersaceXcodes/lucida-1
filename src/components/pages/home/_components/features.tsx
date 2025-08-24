@@ -1,31 +1,37 @@
-import Section from "@/components/ui/section"
-import { BodyMdParagraph, HeadingXs } from "@/components/ui/typography"
-import { FEATURES_CARDS } from "@/constants/features"
-
+import Section from "@/components/ui/section";
+import { BodyMdParagraph, HeadingXs } from "@/components/ui/typography";
+import { cn } from "@/lib/utils";
+import { useTranslation } from "react-i18next";
 
 const Features = () => {
-  return (
+	const { t, i18n } = useTranslation();
+	const FEATURES_CARDS = t("home.features", { returnObjects: true }) as {
+		img: string;
+		title: string;
+		content: string;
+	}[];
+	return (
 		<Section className="px-6">
-			<div className="max-w-[1020px] w-full mx-auto grid md:grid-cols-3 max-md:text-center max-md:max-w-[400px] gap-x-7 gap-y-12">
+			<div className="max-w-[1020px] w-full mx-auto grid md:grid-cols-3  max-md:max-w-[400px] gap-x-7 gap-y-12">
 				{FEATURES_CARDS.map((feature) => (
 					<div
+						dir={i18n.language === "ar" ? "rtl" : "ltr"}
 						key={feature.title}
-						className="flex flex-col">
+						className={cn("flex flex-col", {
+							"max-md:text-center": i18n.language !== "ar",
+						})}>
 						<img
 							src={feature.img}
 							className="w-full h-auto md:mb-18 mb-7"
 							alt={feature.title}
 						/>
 						<HeadingXs className="block mb-[18px]">{feature.title}</HeadingXs>
-						<BodyMdParagraph>
-							Easily chat with experts and keep track of your projects on the go
-							with our super easy mobile app made just for you.
-						</BodyMdParagraph>
+						<BodyMdParagraph>{feature.content}</BodyMdParagraph>
 					</div>
 				))}
 			</div>
 		</Section>
 	);
-}
+};
 
-export default Features
+export default Features;
