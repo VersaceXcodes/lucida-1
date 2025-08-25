@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { BodyMdParagraph } from "./typography";
-
+import { useTranslation } from "react-i18next";
 
 const FaqItem = ({
 	title,
@@ -12,6 +12,7 @@ const FaqItem = ({
 	content: React.ReactNode;
 }) => {
 	const [isOpen, setIsOpen] = useState(false);
+	const { i18n } = useTranslation();
 
 	return (
 		<div
@@ -19,6 +20,7 @@ const FaqItem = ({
 				"w-full px-7 py-6 rounded-xl bg-white border-[0.5px] border-faqborderClose transition-colors duration-200 ease-in-out",
 				{
 					"border-faqborderOpen": isOpen,
+					"text-right": i18n.language === "ar",
 				}
 			)}
 			style={{
@@ -68,6 +70,5 @@ const FaqItem = ({
 		</div>
 	);
 };
-
 
 export default FaqItem;

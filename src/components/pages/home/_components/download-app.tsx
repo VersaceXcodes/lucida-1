@@ -1,12 +1,14 @@
 import Section from "@/components/ui/section";
+import { cn } from "@/lib/utils";
+import { useTranslation } from "react-i18next";
 
 const DownloadApp = () => {
+	const { t, i18n } = useTranslation();
 	return (
 		<Section className="px-6">
 			<div
 				className="max-w-[1110px] mx-auto relative rounded-3xl overflow-hidden"
 				style={{
-					
 					boxShadow:
 						"0 -0.5px 0 0 rgba(0, 0, 0, 0.12) inset, 0 1px 2px -0.5px rgba(0, 0, 0, 0.08)",
 				}}>
@@ -17,14 +19,24 @@ const DownloadApp = () => {
 					loading="lazy"
 					alt="Download App"
 				/>
-				<div className="flex justify-between px-9 relative items-center md:gap-6 max-md:flex-col">
-					<div className="py-10">
-						<h4 className="md:inline-block block text-white md:text-2xl md:leading-[30px] text-xl font-semibold md:text-left text-center">
-							Download now and explore
+				<div className="flex justify-between px-9 relative items-center md:gap-[120px] max-md:flex-col">
+					<div className="py-10 flex-1">
+						<h4
+							className={cn(
+								"md:inline-block block text-white md:text-2xl md:leading-[30px] text-xl font-semibold md:text-left text-center",{
+									"md:text-right block w-full text-right": i18n.language === "ar",
+								}
+							)}>
+							{t("home.downloadApp.title")}
 						</h4>
-						<p className="text-white/70 leading-6 tracking-[-0.16px] mt-[14px] max-w-[320px] md:text-left text-center">
-							Lucida is the coolest app for finding local pros right in your
-							area.
+						<p
+							className={cn(
+								"text-white/70 leading-6 tracking-[-0.16px] mt-[14px] max-w-[320px] md:text-left text-center",
+								{
+									"max-w-full md:text-right text-right": i18n.language === "ar",
+								}
+							)}>
+							{t("home.downloadApp.content")}
 						</p>
 						<div className="flex items-center mt-6 gap-4 md:justify-start justify-center">
 							<a href="apple.com">

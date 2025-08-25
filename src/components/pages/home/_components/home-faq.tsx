@@ -5,21 +5,29 @@ import {
 	CodeMdParagraph,
 	HeadingMd,
 } from "@/components/ui/typography";
-import { FAQS } from "@/constants/faqs";
+import { cn } from "@/lib/utils";
+import { useTranslation } from "react-i18next";
 
 const HomeFaq = () => {
+	const { i18n, t } = useTranslation();
+	const FAQS = t("home.faq.items", { returnObjects: true }) as {
+		title: string;
+		content: string;
+	}[];
 	return (
 		<Section className="px-6 bg-violet-5">
 			<div className="flex flex-col max-w-[540px] mx-auto">
-				<div className="flex-col text-center md:mb-24 mb-12">
+				<div
+					dir={i18n.language === "ar" ? "rtl" : "ltr"}
+					className={cn(
+						"flex-col text-center md:mb-24 mb-12",
+						i18n.language === "ar" ? "items-end text-right" : "items-start"
+					)}>
 					<CodeMdParagraph className="mb-[18px]">
-						GOT QUESTIONS?
+						{t("home.faq.name")}
 					</CodeMdParagraph>
-					<HeadingMd>FAQ</HeadingMd>
-					<BodyMdParagraph>
-						Discover quick and comprehensive answers to common questions about
-						our platform, services, and features.
-					</BodyMdParagraph>
+					<HeadingMd>{t("home.faq.title")}</HeadingMd>
+					<BodyMdParagraph>{t("home.faq.content")}</BodyMdParagraph>
 				</div>
 				<div className="w-full flex flex-col gap-[14px]">
 					{FAQS.map((faq) => (

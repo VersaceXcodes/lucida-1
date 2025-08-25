@@ -2,7 +2,7 @@
 
 @theme {
 	--color-neutral-5: #f7f7f7;
-	--color-neutral-10: #EBEBEB;
+	--color-neutral-10: #ebebeb;
 	--color-primary: #1d1d1d;
 	--color-secondary: #0a0a0a;
 	--color-violet-5: #faf7ff;
@@ -11,6 +11,7 @@
 	--color-faqborderClose: rgba(10, 10, 10, 0.1);
 
 	--font-jetbrains: "JetBrains Mono", monospace;
+	--font-inter: "Inter", sans-serif;
 }
 
 html {
@@ -28,4 +29,21 @@ body {
 	box-shadow: 0 0 0 0.5px rgba(10, 10, 10, 0.1),
 		0 24px 48px 0 rgba(10, 10, 10, 0.03), 0 10px 18px 0 rgba(10, 10, 10, 0.03),
 		0 5px 8px 0 rgba(10, 10, 10, 0.04), 0 2px 4px 0 rgba(10, 10, 10, 0.04);
+}
+
+.mask-image {
+	mask-image: linear-gradient(
+		to right,
+		transparent,
+		white 50%,
+		transparent
+	);
+
+	/* WebKit prefix for broader browser compatibility */
+	-webkit-mask-image: linear-gradient(
+		to right,
+		transparent,
+		white 50%,
+		transparent
+	);
 }

@@ -27,7 +27,7 @@ export const HeadingMd = ({
 	return (
 		<h2
 			className={cn(
-				"md:text-[40px] md:leading-[48px] text-4xl font-semibold",
+				"md:text-[40px] md:leading-[48px] text-4xl font-semibold font-inter",
 				className
 			)}
 			{...props}>
