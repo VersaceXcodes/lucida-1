@@ -3,15 +3,15 @@ import { BodyLgParagraph, HeadingXl } from "@/components/ui/typography";
 
 const HomeHero = () => {
 	return (
-		<section className="w-full relative overflow-hidden z-20">
+		<section className="w-full relative overflow-hidden z-20 md:pb-[174px] pb-20">
 			<Header />
 			<img
-				src="./images/home-hero-bg.webp"
-				className="w-full h-full object-cover absolute top-0 left-0"
+				src="./images/ar-home-hero.webp"
+				className="w-full h-full object-cover z-[-1] absolute top-0 left-0"
 				alt=""
 			/>
 			<div className="w-full px-6">
-				<div className="flex flex-col z-5 md:pt-[88px] md:pb-[172px] pt-14 pb-20 text-center items-center md:max-w-[820px] max-w-[540px] mx-auto relative">
+				<div className="flex flex-col z-5 md:pt-[88px]  pt-14 text-center items-center md:max-w-[820px] max-w-[540px] mx-auto relative md:pb-[112px] pb-20">
 					<HeadingXl>Look for awesome experts close to you</HeadingXl>
 					<BodyLgParagraph className="max-w-[410px] text-primary/70 mt-6">
 						Lucida is the coolest app for finding local pros right in your area.
@@ -34,20 +34,38 @@ const HomeHero = () => {
 							/>
 						</a>
 					</div>
-					<img
-						src="./images/home-hero-phone.webp"
-						className=" w-[305px] h-auto md:mt-[112px] mt-12"
-						style={{
-							filter: `
-      drop-shadow(0 118px 105px rgba(36, 14, 75, 0.19))
-      drop-shadow(0 26.357px 23.453px rgba(36, 14, 75, 0.11))
-      drop-shadow(0 7.847px 6.983px rgba(36, 14, 75, 0.08))
-    `,
-						}}
-						alt=""
-					/>
 				</div>
 			</div>
+			<div className="w-full flex items-center justify-center gap-[37px] relative mask-image max-w-max mx-auto">
+				<img
+					src="./images/ar-hero/1.png"
+					className="w-[248px] h-auto flex-shrink-0"
+				/>
+				<img
+					src="./images/ar-hero/2.png"
+					className="w-[248px] h-auto flex-shrink-0"
+				/>
+				<img
+					src="./images/ar-hero/3.png"
+					className="w-[305px] h-auto flex-shrink-0"
+				/>
+				<img
+					src="./images/ar-hero/4.png"
+					className="w-[248px] h-auto flex-shrink-0"
+				/>
+				<img
+					src="./images/ar-hero/5.png"
+					className="w-[248px] h-auto flex-shrink-0"
+				/>
+			</div>
+			<img
+				style={{
+					filter:
+						"drop-shadow(0 118px 105px rgba(36, 14, 75, 0.19)) drop-shadow(0 26.357px 23.453px rgba(36, 14, 75, 0.11)) drop-shadow(0 7.847px 6.983px rgba(36, 14, 75, 0.08))",
+				}}
+				src="./images/ar-hero/3.png"
+				className="w-[305px] h-auto flex-shrink-0 mx-auto mt-[-620px]"
+			/>
 		</section>
 	);
 };

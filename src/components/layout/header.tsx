@@ -1,12 +1,27 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { Menu, X } from "lucide-react";
+import { Menu, X, ChevronDown, Globe } from "lucide-react";
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router";
 
 const Header = () => {
 	const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-	const {t} = useTranslation()
+	const [isLangOpen, setIsLangOpen] = React.useState(false);
+	const { t, i18n } = useTranslation();
+
+	const languages = [
+		{ code: "en", name: "English", flag: "🇺🇸" },
+		{ code: "ar", name: "العربية", flag: "🇸🇦" },
+	];
+
+	const currentLanguage =
+		languages.find((lang) => lang.code === i18n.language) || languages[0];
+
+	const changeLanguage = (langCode: string) => {
+		i18n.changeLanguage(langCode);
+		setIsLangOpen(false);
+	};
+
 	return (
 		<div className="w-full flex justify-between items-center md:px-11 px-6 py-7 bg-white relative z-20">
 			<Link
@@ -28,6 +43,45 @@ const Header = () => {
 				/>
 			</Link>
 			<div className="items-center gap-2 relative  flex-row md:flex hidden">
+				{/* Language Dropdown */}
+				<div className="relative">
+					<button
+						onClick={() => setIsLangOpen(!isLangOpen)}
+						className="gap-1.5 flex items-center py-[6.5px] px-4 border rounded-lg border-faqborderClose transition-colors hover:border-secondary duration-300">
+						<Globe className="w-4 h-4 text-secondary/70" />
+
+						<span className="text-sm">{currentLanguage.name}</span>
+						<ChevronDown
+							className={`w-4 h-4 text-secondary/70 transition-transform duration-200 ${
+								isLangOpen ? "rotate-180" : ""
+							}`}
+						/>
+					</button>
+
+					<AnimatePresence>
+						{isLangOpen && (
+							<motion.div
+								initial={{ opacity: 0, y: -8 }}
+								animate={{ opacity: 1, y: 0 }}
+								exit={{ opacity: 0, y: -8 }}
+								transition={{ duration: 0.2, ease: "easeInOut" }}
+								className="absolute top-full mt-2 right-0 bg-white border border-faqborderClose rounded-lg shadow-lg min-w-[120px] z-30">
+								{languages.map((lang) => (
+									<button
+										key={lang.code}
+										onClick={() => changeLanguage(lang.code)}
+										className={`w-full flex items-center gap-2 px-4 py-2.5 text-left hover:bg-gray-50 transition-colors duration-200 first:rounded-t-lg last:rounded-b-lg ${
+											currentLanguage.code === lang.code ? "bg-gray-50" : ""
+										}`}>
+										<span className="text-sm text-secondary/70">
+											{lang.name}
+										</span>
+									</button>
+								))}
+							</motion.div>
+						)}
+					</AnimatePresence>
+				</div>
 				<Link
 					to={"/features"}
 					className="py-1.5 px-3 text-secondary/70 transition-colors duration-300 hover:text-secondary">
@@ -44,6 +98,7 @@ const Header = () => {
 					className="py-1.5 px-3 text-secondary/70 transition-colors duration-300 hover:text-secondary">
 					{t("layout.header.getSupport")}
 				</Link>
+
 				<a
 					href="/"
 					className="gap-1.5 flex items-center py-[6.5px] px-4 border rounded-lg border-faqborderClose transition-colors hover:border-secondary duration-300">
@@ -75,11 +130,58 @@ const Header = () => {
 					<span>{t("layout.header.download")}</span>
 				</a>
 			</div>
-			<button
-				onClick={() => setIsMenuOpen(!isMenuOpen)}
-				className="block md:hidden text-secondary/70">
-				{isMenuOpen ? <X className="size-7" /> : <Menu className="size-7" />}{" "}
-			</button>
+			<div className="md:hidden flex items-center gap-3">
+				{/* Mobile Language Dropdown */}
+				<div className="relative">
+					<button
+						onClick={() => setIsLangOpen(!isLangOpen)}
+						className="gap-1.5 flex items-center py-[6.5px] px-4 border rounded-lg border-faqborderClose transition-colors hover:border-secondary duration-300">
+						<Globe className="w-4 h-4 text-secondary/70" />
+						
+						<span className="text-sm">
+							{currentLanguage.name}
+						</span>
+						<ChevronDown
+							className={`w-4 h-4 text-secondary/70 transition-transform duration-200 ${
+								isLangOpen ? "rotate-180" : ""
+							}`}
+						/>
+					</button>
+
+					<AnimatePresence>
+						{isLangOpen && (
+							<motion.div
+								initial={{ opacity: 0, y: -8 }}
+								animate={{ opacity: 1, y: 0 }}
+								exit={{ opacity: 0, y: -8 }}
+								transition={{ duration: 0.2, ease: "easeInOut" }}
+								className="absolute top-full mt-2 right-0 bg-white border border-faqborderClose rounded-lg shadow-lg min-w-[120px] z-30">
+								{languages.map((lang) => (
+									<button
+										key={lang.code}
+										onClick={() => {
+											changeLanguage(lang.code);
+											setIsMenuOpen(false);
+										}}
+										className={`w-full flex items-center gap-2 px-4 py-2.5 text-left hover:bg-gray-50 transition-colors duration-200 first:rounded-t-lg last:rounded-b-lg ${
+											currentLanguage.code === lang.code ? "bg-gray-50" : ""
+										}`}>
+										
+										<span className="text-sm text-secondary/70">
+											{lang.name}
+										</span>
+									</button>
+								))}
+							</motion.div>
+						)}
+					</AnimatePresence>
+				</div>
+				<button
+					onClick={() => setIsMenuOpen(!isMenuOpen)}
+					className="block md:hidden text-secondary/70">
+					{isMenuOpen ? <X className="size-7" /> : <Menu className="size-7" />}{" "}
+				</button>
+			</div>
 			<AnimatePresence>
 				{isMenuOpen && (
 					<motion.div
@@ -107,6 +209,7 @@ const Header = () => {
 							className="py-1.5 px-3 text-secondary/70 transition-colors duration-300 hover:text-secondary">
 							{t("layout.header.getSupport")}
 						</Link>
+
 						<a
 							href="/"
 							onClick={() => setIsMenuOpen(false)}

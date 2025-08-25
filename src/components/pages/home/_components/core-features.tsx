@@ -15,7 +15,7 @@ const CoreFeatures = () => {
 		<Section className="px-6">
 			<div
 				className={cn(
-					"flex flex-col sm:max-w-[1110px] max-w-[540px] mx-auto w-full text-center",
+					"flex flex-col items-center sm:max-w-[1110px] max-w-[540px] mx-auto w-full text-center",
 					{
 						"text-right items-end": i18n.language === "ar",
 					}
