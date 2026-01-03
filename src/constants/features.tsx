@@ -16,7 +16,7 @@ export const CORE_FEATURES = {
 			),
 			title: "Browse Services",
 			content:
-				"Explore home cleaning, car wash, laundry, maintenance, and more - all organized by category.",
+				"Explore home cleaning, car wash, laundry, maintenance, event catering, and more - all organized by category.",
 		},
 		{
 			icon: (
@@ -126,7 +126,7 @@ export const CORE_FEATURES = {
 			),
 			title: "تصفح الخدمات",
 			content:
-				"استكشف تنظيف المنازل وغسيل السيارات والمغسلة والصيانة والمزيد - مرتبة حسب الفئة.",
+				"استكشف تنظيف المنازل وغسيل السيارات والمغسلة والصيانة وتقديم الطعام للمناسبات والمزيد - مرتبة حسب الفئة.",
 		},
 		{
 			icon: (
@@ -226,7 +226,7 @@ export const FEATURES_CARDS = {
 			img: "./images/features/1.webp",
 			title: "All Your Home Needs in One App",
 			content:
-				"From cleaning and laundry to maintenance and car wash - find and book trusted services across Libya.",
+				"From cleaning and laundry to maintenance, car wash, and event catering - find and book trusted services across Libya.",
 		},
 		{
 			img: "./images/features/2.webp",
@@ -246,7 +246,7 @@ export const FEATURES_CARDS = {
 			img: "./images/features/1.webp",
 			title: "كل احتياجات منزلك في تطبيق واحد",
 			content:
-				"من التنظيف والغسيل إلى الصيانة وغسيل السيارات - اعثر على خدمات موثوقة واحجزها في جميع أنحاء ليبيا.",
+				"من التنظيف والغسيل إلى الصيانة وغسيل السيارات وتقديم الطعام للمناسبات - اعثر على خدمات موثوقة واحجزها في جميع أنحاء ليبيا.",
 		},
 		{
 			img: "./images/features/2.webp",

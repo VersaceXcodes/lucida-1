@@ -22,7 +22,7 @@ const resources = {
 					key: "WHY LUCIDA",
 					title: "Libya's First Home Services Booking App",
 					content:
-						"With Lucida, life is easier. Book trusted home services - cleaning, maintenance, laundry and more - according to your time, schedule, and budget.",
+						"With Lucida, life is easier. Book trusted services - cleaning, maintenance, laundry, event catering and more - according to your time, schedule, and budget.",
 				},
 				presentation: {
 					one: {
@@ -78,7 +78,7 @@ const resources = {
 					key: "لماذا لوسيدا",
 					title: "أول تطبيق حجز خدمات منزلية في ليبيا",
 					content:
-						"مع لوسيدا حياتك أسهل. احجز خدمات التنظيف والصيانة والغسيل وأكثر حسب وقتك وجدولك وميزانيتك.",
+						"مع لوسيدا حياتك أسهل. احجز خدمات التنظيف والصيانة والغسيل وتقديم الطعام للمناسبات وأكثر حسب وقتك وجدولك وميزانيتك.",
 				},
 				presentation: {
 					one: {
