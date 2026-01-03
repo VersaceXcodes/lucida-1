@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import Footer from "./footer";
 import { Outlet } from "react-router";
 
-import Lenis from "@studio-freight/lenis";
+import Lenis from "lenis";
 
 const MainLayout = () => {
 	useEffect(() => {
