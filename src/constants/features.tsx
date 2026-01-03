@@ -14,9 +14,9 @@ export const CORE_FEATURES = {
 					/>
 				</svg>
 			),
-			title: "Instant Insights",
+			title: "Browse Services",
 			content:
-				"Experience powerful analytics and real-time updates to keep your projects on track and informed.",
+				"Explore home cleaning, car wash, laundry, maintenance, and more - all organized by category.",
 		},
 		{
 			icon: (
@@ -32,9 +32,9 @@ export const CORE_FEATURES = {
 					/>
 				</svg>
 			),
-			title: "Seamless Integrations",
+			title: "Compare & Choose",
 			content:
-				"Easily connect with your favorite tools and platforms to streamline your workflow.",
+				"View service details, pricing, and provider ratings before booking to make the best choice.",
 		},
 		{
 			icon: (
@@ -50,9 +50,9 @@ export const CORE_FEATURES = {
 					/>
 				</svg>
 			),
-			title: "Interactive Dashboards",
+			title: "Easy Booking",
 			content:
-				"Visualize your data and progress with customizable dashboards that fit your needs.",
+				"Book your preferred service in just a few taps. Simple, fast, and hassle-free.",
 		},
 		{
 			icon: (
@@ -68,9 +68,9 @@ export const CORE_FEATURES = {
 					/>
 				</svg>
 			),
-			title: "Dedicated Support",
+			title: "Flexible Scheduling",
 			content:
-				"Get assistance whenever you need it with our responsive customer service team.",
+				"Choose a time that fits your schedule and budget. Services on your terms.",
 		},
 		{
 			icon: (
@@ -86,9 +86,9 @@ export const CORE_FEATURES = {
 					/>
 				</svg>
 			),
-			title: "Smart Automation",
+			title: "Track Bookings",
 			content:
-				"Automate repetitive tasks and focus on what really matters with our intelligent workflow features.",
+				"View your upcoming and past appointments. Modify or cancel bookings anytime.",
 		},
 		{
 			icon: (
@@ -104,9 +104,9 @@ export const CORE_FEATURES = {
 					/>
 				</svg>
 			),
-			title: "Robust Architecture",
+			title: "Rate Providers",
 			content:
-				"Built on a solid foundation, our app ensures reliability and scalability as your needs grow.",
+				"Share your experience and help others find the best service providers in Libya.",
 		},
 	],
 	ar: [
@@ -124,9 +124,9 @@ export const CORE_FEATURES = {
 					/>
 				</svg>
 			),
-			title: "رؤى فورية",
+			title: "تصفح الخدمات",
 			content:
-				"استمتع بتحليلات قوية وتحديثات فورية للحفاظ على مشاريعك على المسار الصحيح ومطلعة",
+				"استكشف تنظيف المنازل وغسيل السيارات والمغسلة والصيانة والمزيد - مرتبة حسب الفئة.",
 		},
 		{
 			icon: (
@@ -142,8 +142,8 @@ export const CORE_FEATURES = {
 					/>
 				</svg>
 			),
-			title: "تكامل سلس",
-			content: "تواصل بسهولة مع أدواتك ومنصاتك المفضلة لتبسيط سير العمل",
+			title: "قارن واختر",
+			content: "اطلع على تفاصيل الخدمة والأسعار وتقييمات مقدمي الخدمة قبل الحجز.",
 		},
 		{
 			icon: (
@@ -159,9 +159,9 @@ export const CORE_FEATURES = {
 					/>
 				</svg>
 			),
-			title: "لوحات معلومات تفاعلية",
+			title: "حجز سهل",
 			content:
-				"تصور بياناتك وتقدمك مع لوحات معلومات قابلة للتخصيص تناسب احتياجاتك",
+				"احجز الخدمة المفضلة لديك بضغطات قليلة. بسيط وسريع وبدون متاعب.",
 		},
 		{
 			icon: (
@@ -177,9 +177,9 @@ export const CORE_FEATURES = {
 					/>
 				</svg>
 			),
-			title: "دعم مخصص",
+			title: "جدولة مرنة",
 			content:
-				"احصل على المساعدة كلما احتجت إليها مع فريق خدمة العملاء المتجاوب لدينا",
+				"اختر الوقت الذي يناسب جدولك وميزانيتك. خدمات حسب شروطك.",
 		},
 		{
 			icon: (
@@ -195,9 +195,9 @@ export const CORE_FEATURES = {
 					/>
 				</svg>
 			),
-			title: "أتمتة ذكية",
+			title: "تتبع الحجوزات",
 			content:
-				"قم بأتمتة المهام المتكررة وركز على ما يهم حقًا مع ميزات سير العمل الذكية لدينا",
+				"اطلع على مواعيدك القادمة والسابقة. عدّل أو ألغِ الحجوزات في أي وقت.",
 		},
 		{
 			icon: (
@@ -213,9 +213,9 @@ export const CORE_FEATURES = {
 					/>
 				</svg>
 			),
-			title: "بنية قوية",
+			title: "قيّم مقدمي الخدمة",
 			content:
-				"مبني على أساس متين، يضمن تطبيقنا الموثوقية والقابلية للتوسع مع نمو احتياجاتك",
+				"شارك تجربتك وساعد الآخرين في العثور على أفضل مقدمي الخدمات في ليبيا.",
 		},
 	],
 };
@@ -224,41 +224,41 @@ export const FEATURES_CARDS = {
 	en: [
 		{
 			img: "./images/features/1.webp",
-			title: "A rad place to hang out.",
+			title: "All Your Home Needs in One App",
 			content:
-				"Easily chat with experts and keep track of your projects on the go with our super easy mobile app made just for you.",
+				"From cleaning and laundry to maintenance and car wash - find and book trusted services across Libya.",
 		},
 		{
 			img: "./images/features/2.webp",
-			title: "Search by categories.",
+			title: "Browse by Category",
 			content:
-				"Easily chat with experts and keep track of your projects on the go with our super easy mobile app made just for you.",
+				"Easily find services organized by type: home cleaning, carpet cleaning, pool cleaning, garden care, and more.",
 		},
 		{
 			img: "./images/features/2.webp",
-			title: "A sweet place to roam.",
+			title: "Book on Your Schedule",
 			content:
-				"Easily chat with experts and keep track of your projects on the go with our super easy mobile app made just for you.",
+				"Choose a time that works for you. Flexible scheduling that fits your lifestyle and budget.",
 		},
 	],
 	ar: [
 		{
 			img: "./images/features/1.webp",
-			title: "مكان رائع للتجمع",
+			title: "كل احتياجات منزلك في تطبيق واحد",
 			content:
-				"تواصل بسهولة مع الخبراء واحتفظ بسجل لمشاريعك أثناء التنقل مع تطبيقنا المحمول السهل المصمم خصيصًا لك",
+				"من التنظيف والغسيل إلى الصيانة وغسيل السيارات - اعثر على خدمات موثوقة واحجزها في جميع أنحاء ليبيا.",
 		},
 		{
 			img: "./images/features/2.webp",
-			title: "ابحث حسب الفئات",
+			title: "تصفح حسب الفئة",
 			content:
-				"تواصل بسهولة مع الخبراء واحتفظ بسجل لمشاريعك أثناء التنقل مع تطبيقنا المحمول السهل المصمم خصيصًا لك",
+				"اعثر بسهولة على الخدمات مرتبة حسب النوع: تنظيف المنازل، تنظيف السجاد، تنظيف المسابح، العناية بالحدائق، والمزيد.",
 		},
 		{
 			img: "./images/features/2.webp",
-			title: "مكان لطيف للتجول",
+			title: "احجز حسب جدولك",
 			content:
-				"تواصل بسهولة مع الخبراء واحتفظ بسجل لمشاريعك أثناء التنقل مع تطبيقنا المحمول السهل المصمم خصيصًا لك",
+				"اختر الوقت المناسب لك. جدولة مرنة تناسب نمط حياتك وميزانيتك.",
 		},
 	],
 };

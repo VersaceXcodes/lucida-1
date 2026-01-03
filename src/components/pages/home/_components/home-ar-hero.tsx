@@ -13,11 +13,11 @@ const HomeArHero = () => {
 			<div className="w-full px-6">
 				<div className="w-full max-w-[1110px] mx-auto text-right flex flex-col items-end md:pt-[88px] md:pb-[112px] pt-14 pb-20">
 					<HeadingXl className="max-w-[820px]">
-						ابحث عن خبراء رائعين بالقرب منك
+						أول تطبيق حجز خدمات منزلية في ليبيا
 					</HeadingXl>
 					<BodyLgParagraph className="max-w-[410px] text-primary/70 mt-6">
-						لوسيدا هو التطبيق الأكثر روعة للعثور على المحترفين المحليين في
-						منطقتك
+						مع لوسيدا حياتك أسهل. احجز خدمات التنظيف والصيانة والغسيل وأكثر
+						بضغطة زر.
 					</BodyLgParagraph>
 					<div className="flex items-center md:mt-11 mt-6 gap-4 md:justify-start justify-center">
 						<a href="apple.com">

@@ -1,60 +1,66 @@
 export const FAQS = {
 	en: [
 		{
-			title: "What is included in the free trial?",
+			title: "How do I book a service?",
 			content:
-				"Yes, you can cancel your subscription at any time directly from your account settings.",
+				"Simply browse services by category, select your preferred provider, choose a convenient time, and confirm your booking. It only takes a few taps!",
 		},
 		{
-			title: "Can I cancel my subscription at any time?",
+			title: "Can I cancel or reschedule a booking?",
 			content:
-				"Yes, you can cancel your subscription at any time directly from your account settings.",
+				"Yes, you can modify or cancel your booking anytime through the app. Just go to your bookings and select the appointment you want to change.",
 		},
 		{
-			title: "Do you offer discounts for annual plans?",
+			title: "How are service providers verified?",
 			content:
-				"Yes, you can cancel your subscription at any time directly from your account settings.",
+				"All service providers on Lucida go through a verification process. You can also view ratings and reviews from other customers before booking.",
 		},
 		{
-			title: "Is my data secure on your platform?",
+			title: "What services are available on Lucida?",
 			content:
-				"Yes, you can cancel your subscription at any time directly from your account settings.",
+				"We offer a wide range of home services including home cleaning, car wash, carpet cleaning, sofa cleaning, laundry, pool cleaning, garden maintenance, electrical repairs, and more.",
 		},
 		{
-			title: "Can I change my plan after I’ve subscribed?",
+			title: "Is Lucida available in my area?",
 			content:
-				"Yes, you can cancel your subscription at any time directly from your account settings.",
+				"Lucida is currently available across Libya. Download the app to see available services in your specific location.",
 		},
 		{
-			title: "Do you offer support for onboarding new users?",
+			title: "Is my personal information secure?",
 			content:
-				"Yes, you can cancel your subscription at any time directly from your account settings.",
+				"Yes, we take your privacy seriously. Your personal information is protected and we never share your data with third parties without your consent.",
 		},
 	],
 	ar: [
 		{
-			title: "ما الذي يتضمنه التجربة المجانية؟",
-			content: "نعم، يمكنك إلغاء اشتراكك في أي وقت مباشرة من إعدادات حسابك.",
+			title: "كيف أحجز خدمة؟",
+			content:
+				"ببساطة تصفح الخدمات حسب الفئة، اختر مقدم الخدمة المفضل لديك، حدد وقتًا مناسبًا، وأكد حجزك. لا يتطلب الأمر سوى بضع ضغطات!",
 		},
 		{
-			title: "هل يمكنني إلغاء اشتراكي في أي وقت؟",
-			content: "نعم، يمكنك إلغاء اشتراكك في أي وقت مباشرة من إعدادات حسابك.",
+			title: "هل يمكنني إلغاء أو إعادة جدولة الحجز؟",
+			content:
+				"نعم، يمكنك تعديل أو إلغاء حجزك في أي وقت من خلال التطبيق. فقط اذهب إلى حجوزاتك واختر الموعد الذي تريد تغييره.",
 		},
 		{
-			title: "هل تقدمون خصومات على الخطط السنوية؟",
-			content: "نعم، يمكنك إلغاء اشتراكك في أي وقت مباشرة من إعدادات حسابك.",
+			title: "كيف يتم التحقق من مقدمي الخدمات؟",
+			content:
+				"جميع مقدمي الخدمات في لوسيدا يخضعون لعملية تحقق. يمكنك أيضًا الاطلاع على التقييمات والمراجعات من العملاء الآخرين قبل الحجز.",
 		},
 		{
-			title: "هل بياناتي آمنة على منصتكم؟",
-			content: "نعم، يمكنك إلغاء اشتراكك في أي وقت مباشرة من إعدادات حسابك.",
+			title: "ما هي الخدمات المتاحة في لوسيدا؟",
+			content:
+				"نقدم مجموعة واسعة من الخدمات المنزلية بما في ذلك تنظيف المنازل، غسيل السيارات، تنظيف السجاد، تنظيف الكنب، المغسلة، تنظيف المسابح، صيانة الحدائق، الإصلاحات الكهربائية، والمزيد.",
 		},
 		{
-			title: "هل يمكنني تغيير خطتي بعد الاشتراك؟",
-			content: "نعم، يمكنك إلغاء اشتراكك في أي وقت مباشرة من إعدادات حسابك.",
+			title: "هل لوسيدا متاح في منطقتي؟",
+			content:
+				"لوسيدا متاح حاليًا في جميع أنحاء ليبيا. حمّل التطبيق لمعرفة الخدمات المتاحة في موقعك.",
 		},
 		{
-			title: "هل تقدمون دعمًا لتوجيه المستخدمين الجدد؟",
-			content: "نعم، يمكنك إلغاء اشتراكك في أي وقت مباشرة من إعدادات حسابك.",
+			title: "هل معلوماتي الشخصية آمنة؟",
+			content:
+				"نعم، نحن نأخذ خصوصيتك على محمل الجد. معلوماتك الشخصية محمية ولا نشارك بياناتك مع أطراف ثالثة بدون موافقتك.",
 		},
 	],
 };

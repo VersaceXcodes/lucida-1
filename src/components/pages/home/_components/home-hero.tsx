@@ -12,9 +12,9 @@ const HomeHero = () => {
 			/>
 			<div className="w-full px-6">
 				<div className="flex flex-col z-5 md:pt-[88px]  pt-14 text-center items-center md:max-w-[820px] max-w-[540px] mx-auto relative md:pb-[112px] pb-20">
-					<HeadingXl>Look for awesome experts close to you</HeadingXl>
+					<HeadingXl>Libya's First Home Services App</HeadingXl>
 					<BodyLgParagraph className="max-w-[410px] text-primary/70 mt-6">
-						Lucida is the coolest app for finding local pros right in your area.
+						With Lucida, life is easier. Book cleaning, maintenance, laundry and more - all in a few taps.
 					</BodyLgParagraph>
 					<div className="flex items-center md:mt-11 mt-6 gap-4 md:justify-start justify-center">
 						<a href="apple.com">

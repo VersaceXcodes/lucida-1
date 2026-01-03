@@ -19,45 +19,45 @@ const resources = {
 			},
 			home: {
 				coreFeatures: {
-					key: "CORE FEATURES",
-					title: "Your Go-To App for Hassle Free Solutions",
+					key: "WHY LUCIDA",
+					title: "Libya's First Home Services Booking App",
 					content:
-						"Seamlessly connect with experts and manage your projects from anywhere using our user-friendly mobile app designed for your convenience.",
+						"With Lucida, life is easier. Book trusted home services - cleaning, maintenance, laundry and more - according to your time, schedule, and budget.",
 				},
 				presentation: {
 					one: {
-						title: "Exclusive place for Exploring",
+						title: "Browse Services by Category",
 						content:
-							"Easily chat with experts and keep track of your projects on the go with our super easy mobile app made just for you.",
+							"Explore a wide range of home services including cleaning, car wash, laundry, maintenance, and more - all organized for easy discovery.",
 					},
 					two: {
-						title: "Best suggestion for an individual to use",
+						title: "Compare and Choose with Confidence",
 						content:
-							"Manage Your Entire Business Ecosystem from a Single Dashboard with Our Scalable, Cloud-Based SaaS Solution Tailored to Your Needs.",
+							"View service details, pricing, and provider ratings before booking. Make informed decisions with transparent information.",
 					},
 					three: {
-						title: "Boost your business efficiency",
+						title: "Book in Just a Few Taps",
 						content:
-							"Manage Your Entire Business Ecosystem from a Single Dashboard with Our Scalable, Cloud-Based SaaS Solution Tailored to Your Needs.",
+							"Choose your preferred time, confirm your booking, and track your appointments - all from one simple app.",
 					},
 				},
 				features: FEATURES_CARDS.en,
 				downloadApp: {
-					title: "Download now and explore",
+					title: "Download Lucida Today",
 					content:
-						"Lucida is the coolest app for finding localpros right in your area.",
+						"Libya's first home services app. Book cleaning, maintenance, and more in just a few taps.",
 				},
 				faq: {
 					name: "GOT QUESTIONS?",
 					title: "FAQ",
 					content:
-						"Discover quick and comprehensive answers to common questions about our platform, services, and features.",
+						"Find answers to common questions about booking services, payments, and more.",
 					items: FAQS.en,
 				},
 				qr: {
-					title: "Get it now. Explore. Enjoy.",
+					title: "Get Lucida Now",
 					content:
-						"Discover quick and comprehensive answers to common questions about our platform, services, and features.",
+						"Scan the QR code to download the app and start booking home services today.",
 				},
 			},
 		},
@@ -75,45 +75,45 @@ const resources = {
 			},
 			home: {
 				coreFeatures: {
-					key: "الميزات الأساسية",
-					title: "تطبيقك المفضل للحلول السهلة",
+					key: "لماذا لوسيدا",
+					title: "أول تطبيق حجز خدمات منزلية في ليبيا",
 					content:
-						"تواصل بسلاسة مع الخبراء وأدر مشاريعك من أي مكان باستخدام تطبيقنا المحمول سهل الاستخدام المصمم لراحتك",
+						"مع لوسيدا حياتك أسهل. احجز خدمات التنظيف والصيانة والغسيل وأكثر حسب وقتك وجدولك وميزانيتك.",
 				},
 				presentation: {
 					one: {
-						title: "مكان حصري للاستكشاف",
+						title: "تصفح الخدمات حسب الفئة",
 						content:
-							"تواصل بسهولة مع الخبراء واحتفظ بسجل لمشاريعك أثناء التنقل مع تطبيقنا المحمول السهل المصمم خصيصًا لك",
+							"استكشف مجموعة واسعة من الخدمات المنزلية بما في ذلك التنظيف وغسيل السيارات والمغسلة والصيانة والمزيد.",
 					},
 					two: {
-						title: "أفضل اقتراح للاستخدام الفردي",
+						title: "قارن واختر بثقة",
 						content:
-							"إدارة نظام أعمالك بالكامل من لوحة تحكم واحدة مع حل SaaS القائم على السحابة القابل للتوسع والمصمم وفقًا لاحتياجاتك",
+							"اطلع على تفاصيل الخدمة والأسعار وتقييمات مقدمي الخدمة قبل الحجز. اتخذ قرارات مستنيرة بمعلومات شفافة.",
 					},
 					three: {
-						title: "زيادة كفاءة عملك",
+						title: "احجز بضغطات قليلة",
 						content:
-							"إدارة نظام أعمالك بالكامل من لوحة تحكم واحدة مع حل SaaS القائم على السحابة القابل للتوسع والمصمم وفقًا لاحتياجاتك",
+							"اختر الوقت المناسب لك، أكد حجزك، وتابع مواعيدك - كل ذلك من تطبيق واحد بسيط.",
 					},
 				},
 				features: FEATURES_CARDS.ar,
 				downloadApp: {
-					title: "قم بالتنزيل الآن واستكشف",
+					title: "حمّل لوسيدا الآن",
 					content:
-						" .لوسيدا هو التطبيق الأكثر روعة للعثور على المحترفين المحليين في منطقتك",
+						"أول تطبيق خدمات منزلية في ليبيا. احجز التنظيف والصيانة وأكثر بضغطات قليلة.",
 				},
 				faq: {
 					name: "هل لديك أسئلة؟",
 					title: "الأسئلة الشائعة",
 					content:
-						"اكتشف إجابات سريعة وشاملة للأسئلة الشائعة حول منصتنا وخدماتنا وميزاتها.",
+						"اعثر على إجابات للأسئلة الشائعة حول حجز الخدمات والدفع والمزيد.",
 					items: FAQS.ar,
 				},
 				qr: {
-					title: " .احصل عليه الآن. استكشف. استمتع ",
+					title: "احصل على لوسيدا الآن",
 					content:
-						" .اكتشف إجابات سريعة وشاملة للأسئلة الشائعة حول منصتنا وخدماتنا وميزاتها",
+						"امسح رمز QR لتحميل التطبيق وابدأ بحجز الخدمات المنزلية اليوم.",
 				},
 			},
 		},
