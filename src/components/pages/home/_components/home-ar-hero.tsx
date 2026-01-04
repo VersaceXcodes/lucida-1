@@ -20,7 +20,7 @@ const HomeArHero = () => {
 						بضغطة زر.
 					</BodyLgParagraph>
 					<div className="flex items-center md:mt-11 mt-6 gap-4 md:justify-start justify-center">
-						<a href="apple.com">
+						<a href="https://apps.apple.com/us/app/lucida-home-services/id6746872750">
 							<img
 								src="./images/appstore.svg"
 								className="h-10 w-auto"
@@ -28,7 +28,7 @@ const HomeArHero = () => {
 								alt="Download on the App Store"
 							/>
 						</a>
-						<a href="google.com">
+						<a href="https://play.google.com/store/apps/details?id=com.servicenow">
 							<img
 								src="./images/google-play.svg"
 								className="h-10 w-auto"
