@@ -5,11 +5,10 @@ const ContactHero = () => {
 	return (
 		<Section className="px-6">
 			<div className="max-w-[540px] mx-auto w-full flex flex-col text-center gap-4">
-				<HeadingMd>We’d Love to Hear from You!</HeadingMd>
+				<HeadingMd>Get in Touch with Lucida</HeadingMd>
 				<BodyMdParagraph>
-					Whether you have a question, need support, or want to discuss a
-					project, we’re here to help. Reach out to us via the form below or
-					through any of the contact methods listed.
+					Have questions about our home services? Need help with a booking?
+					Want to become a service provider? We're here to assist you.
 				</BodyMdParagraph>
 			</div>
 		</Section>

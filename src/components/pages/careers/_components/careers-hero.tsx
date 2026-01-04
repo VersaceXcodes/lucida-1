@@ -7,10 +7,10 @@ const CareersHero = () => {
 		<>
 			<Section className="px-6">
 				<div className="max-w-[540px] mx-auto text-center flex flex-col gap-4">
-					<HeadingMd>Shape the Future with Us</HeadingMd>
+					<HeadingMd>Join the Lucida Team</HeadingMd>
 					<BodyMdParagraph>
-						Manage Your Entire Business Ecosystem from a Single Dashboard with
-						Our Scalable, Cloud-Based SaaS Solution Tailored to Your Needs.
+						Help us transform home services in Libya. Join our growing team
+						and make a difference in how people access trusted services.
 					</BodyMdParagraph>
 				</div>
 			</Section>
@@ -46,15 +46,15 @@ const CareersHero = () => {
 
 const ITEMS = [
 	{
-		title: "Career Development Opportunities",
+		title: "Grow with Libya's Leading Platform",
 		content:
-			"Advance your career through structured training programs, mentorship, and growth opportunities tailored to your ambitions.",
+			"Join the team behind Libya's first home services app. Develop your skills, grow your career, and be part of something transformative.",
 		img: "./images/careers/1.png",
 	},
 	{
-		title: "Diverse and Inclusive Culture",
+		title: "Make an Impact in Your Community",
 		content:
-			"We celebrate diversity and foster a welcoming environment where everyone feels valued, respected, and empowered to excel.",
+			"Help connect thousands of Libyans with trusted service providers. Your work directly improves lives and supports local businesses.",
 		img: "./images/careers/1.png",
 	},
 ];

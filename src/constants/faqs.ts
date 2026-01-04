@@ -18,7 +18,7 @@ export const FAQS = {
 		{
 			title: "What services are available on Lucida?",
 			content:
-				"We offer a wide range of services including home cleaning, car wash, carpet cleaning, sofa cleaning, laundry, pool cleaning, garden maintenance, electrical repairs, event catering, and more.",
+				"We offer a wide range of services including home cleaning, car wash, plumbing, electrical repairs, gardening, pest control, laundry, moving services, food & catering, and more.",
 		},
 		{
 			title: "What payment methods do you accept?",
@@ -55,7 +55,7 @@ export const FAQS = {
 		{
 			title: "ما هي الخدمات المتاحة في لوسيدا؟",
 			content:
-				"نقدم مجموعة واسعة من الخدمات بما في ذلك تنظيف المنازل، غسيل السيارات، تنظيف السجاد، تنظيف الكنب، المغسلة، تنظيف المسابح، صيانة الحدائق، الإصلاحات الكهربائية، تقديم الطعام للمناسبات، والمزيد.",
+				"نقدم مجموعة واسعة من الخدمات بما في ذلك تنظيف المنازل، غسيل السيارات، السباكة، الكهرباء، البستنة، مكافحة الآفات، المغسلة، خدمات النقل، تقديم الطعام، والمزيد.",
 		},
 		{
 			title: "ما هي طرق الدفع المقبولة؟",

@@ -7,7 +7,7 @@ import {
 	CodeMdParagraph,
 	HeadingSm,
 } from "@/components/ui/typography";
-import { designTopics } from "@/constants/form";
+import { contactTopics } from "@/constants/form";
 
 const ContactForm = () => {
 	return (
@@ -16,11 +16,11 @@ const ContactForm = () => {
 				<div className="flex flex-col gap-4 text-center items-center">
 					<CodeMdParagraph>CONTACT US</CodeMdParagraph>
 					<HeadingSm>
-						Feel free to reach out to us anytime, we’d love to hear from you!
+						We're here to help with your home service needs
 					</HeadingSm>
 					<BodyMdParagraph>
-						Discover quick and comprehensive answers to common questions about
-						our platform, services, and features.
+						Whether you need booking assistance, want to provide feedback,
+						or are interested in becoming a service provider, reach out below.
 					</BodyMdParagraph>
 				</div>
 				<form className="flex flex-col">
@@ -39,7 +39,7 @@ const ContactForm = () => {
 						</div>
 						<FormSelectField
 							label="Topic"
-							options={designTopics}
+							options={contactTopics}
 						/>
 						<FormTextareaField
 							placeholder="Message..."
