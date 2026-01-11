@@ -1,38 +1,30 @@
 export const FOOTER_LINKS = {
 	en: [
 		{
-			label: "Privacy and Policy",
+			label: "Privacy Policy",
 			href: "/privacy-policy",
 		},
 		{
-			label: "Terms of Use",
+			label: "Terms and Conditions",
 			href: "/terms",
 		},
 		{
-			label: "Changelog",
-			href: "/changelog",
-		},
-		{
-			label: "Help",
-			href: "/help",
+			label: "Contact",
+			href: "/contact",
 		},
 	],
 	ar: [
 		{
-			label: "الخصوصية والسياسة",
+			label: "سياسة الخصوصية",
 			href: "/privacy-policy",
 		},
 		{
-			label: "شروط الاستخدام",
+			label: "الشروط والأحكام",
 			href: "/terms",
 		},
 		{
-			label: "سجل التغييرات",
-			href: "/changelog",
-		},
-		{
-			label: "مساعدة",
-			href: "/help",
+			label: "اتصل بنا",
+			href: "/contact",
 		},
 	],
 };

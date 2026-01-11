@@ -5,6 +5,8 @@ import CareersPage from "./components/pages/careers";
 import ContactPage from "./components/pages/contact";
 import BecomePartnerPages from "./components/pages/become-partner";
 import HeroPage from "./components/pages/hero";
+import TermsPage from "./components/pages/terms";
+import PrivacyPolicyPage from "./components/pages/privacy-policy";
 
 const App = () => {
 	return (
@@ -27,6 +29,14 @@ const App = () => {
 				<Route
 					path="features"
 					element={<BecomePartnerPages />}
+				/>
+				<Route
+					path="terms"
+					element={<TermsPage />}
+				/>
+				<Route
+					path="privacy-policy"
+					element={<PrivacyPolicyPage />}
 				/>
 			</Route>
 			<Route
