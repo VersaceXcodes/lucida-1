@@ -125,7 +125,7 @@ const TermsPage = () => {
 						<div>
 							<HeadingSm className="mb-3">12. Governing Law</HeadingSm>
 							<BodyMdParagraph>
-								These Terms shall be governed by and construed in accordance with the laws of Libya.
+								These Terms shall be governed by and construed in accordance with applicable local laws.
 							</BodyMdParagraph>
 						</div>
 

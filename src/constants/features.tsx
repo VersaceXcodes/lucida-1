@@ -106,7 +106,7 @@ export const CORE_FEATURES = {
 			),
 			title: "Rate Providers",
 			content:
-				"Share your experience and help others find the best service providers in Libya.",
+				"Share your experience and help others find the best service providers.",
 		},
 	],
 	ar: [
@@ -215,7 +215,7 @@ export const CORE_FEATURES = {
 			),
 			title: "قيّم مقدمي الخدمة",
 			content:
-				"شارك تجربتك وساعد الآخرين في العثور على أفضل مقدمي الخدمات في ليبيا.",
+				"شارك تجربتك وساعد الآخرين في العثور على أفضل مقدمي الخدمات.",
 		},
 	],
 };
@@ -226,7 +226,7 @@ export const FEATURES_CARDS = {
 			img: "./images/features/1.webp",
 			title: "All Your Home Needs in One App",
 			content:
-				"From cleaning and laundry to maintenance, car wash, and event catering - find and book trusted services across Libya.",
+				"From cleaning and laundry to maintenance, car wash, and event catering - find and book trusted services near you.",
 		},
 		{
 			img: "./images/features/2.webp",
@@ -246,7 +246,7 @@ export const FEATURES_CARDS = {
 			img: "./images/features/1.webp",
 			title: "كل احتياجات منزلك في تطبيق واحد",
 			content:
-				"من التنظيف والغسيل إلى الصيانة وغسيل السيارات وتقديم الطعام للمناسبات - اعثر على خدمات موثوقة واحجزها في جميع أنحاء ليبيا.",
+				"من التنظيف والغسيل إلى الصيانة وغسيل السيارات وتقديم الطعام للمناسبات - اعثر على خدمات موثوقة واحجزها بالقرب منك.",
 		},
 		{
 			img: "./images/features/2.webp",

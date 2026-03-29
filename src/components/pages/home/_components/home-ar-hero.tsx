@@ -13,7 +13,7 @@ const HomeArHero = () => {
 			<div className="w-full px-6">
 				<div className="w-full max-w-[1110px] mx-auto text-right flex flex-col items-end md:pt-[88px] md:pb-[112px] pt-14 pb-20">
 					<HeadingXl className="max-w-[820px]">
-						أول تطبيق حجز خدمات منزلية في ليبيا
+						أول تطبيق حجز خدمات منزلية
 					</HeadingXl>
 					<BodyLgParagraph className="max-w-[410px] text-primary/70 mt-6">
 						مع لوسيدا حياتك أسهل. احجز خدمات التنظيف والصيانة والغسيل وأكثر

@@ -28,7 +28,7 @@ export const FAQS = {
 		{
 			title: "Is Lucida available in my area?",
 			content:
-				"Lucida is currently available across Libya. Download the app to see available services in your specific location.",
+				"Lucida is currently available in your area. Download the app to see available services in your specific location.",
 		},
 		{
 			title: "Is my personal information secure?",
@@ -65,7 +65,7 @@ export const FAQS = {
 		{
 			title: "هل لوسيدا متاح في منطقتي؟",
 			content:
-				"لوسيدا متاح حاليًا في جميع أنحاء ليبيا. حمّل التطبيق لمعرفة الخدمات المتاحة في موقعك.",
+				"لوسيدا متاح حاليًا في منطقتك. حمّل التطبيق لمعرفة الخدمات المتاحة في موقعك.",
 		},
 		{
 			title: "هل معلوماتي الشخصية آمنة؟",

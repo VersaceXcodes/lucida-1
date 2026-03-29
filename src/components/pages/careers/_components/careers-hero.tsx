@@ -9,7 +9,7 @@ const CareersHero = () => {
 				<div className="max-w-[540px] mx-auto text-center flex flex-col gap-4">
 					<HeadingMd>Join the Lucida Team</HeadingMd>
 					<BodyMdParagraph>
-						Help us transform home services in Libya. Join our growing team
+						Help us transform home services. Join our growing team
 						and make a difference in how people access trusted services.
 					</BodyMdParagraph>
 				</div>
@@ -46,15 +46,15 @@ const CareersHero = () => {
 
 const ITEMS = [
 	{
-		title: "Grow with Libya's Leading Platform",
+		title: "Grow with a Leading Platform",
 		content:
-			"Join the team behind Libya's first home services app. Develop your skills, grow your career, and be part of something transformative.",
+			"Join the team behind the first home services app. Develop your skills, grow your career, and be part of something transformative.",
 		img: "./images/careers/1.png",
 	},
 	{
 		title: "Make an Impact in Your Community",
 		content:
-			"Help connect thousands of Libyans with trusted service providers. Your work directly improves lives and supports local businesses.",
+			"Help connect thousands of people with trusted service providers. Your work directly improves lives and supports local businesses.",
 		img: "./images/careers/1.png",
 	},
 ];
