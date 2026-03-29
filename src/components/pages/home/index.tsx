@@ -16,10 +16,10 @@ const HomePage = () => {
 		<>
 			{i18n.language === "ar" ? <HomeArHero /> : <HomeHero />}
 			<CoreFeatures />
-			<PresentationOne />
-			<PresentationTwo />
-			<PresentationThree />
-			<Features />
+			{/* <PresentationOne /> */}
+			{/* <PresentationTwo /> */}
+			{/* <PresentationThree /> */}
+			{/* <Features /> */}
 			<HomeFaq />
 			<DownloadApp />
 			<QRCodeSection />

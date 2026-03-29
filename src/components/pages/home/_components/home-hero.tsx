@@ -12,7 +12,7 @@ const HomeHero = () => {
 			/>
 			<div className="w-full px-6">
 				<div className="flex flex-col z-5 md:pt-[88px]  pt-14 text-center items-center md:max-w-[820px] max-w-[540px] mx-auto relative md:pb-[112px] pb-20">
-					<HeadingXl>Your First Home Services App</HeadingXl>
+					<HeadingXl>Your Home Services App</HeadingXl>
 					<BodyLgParagraph className="max-w-[410px] text-primary/70 mt-6">
 						With Lucida, life is easier. Book cleaning, maintenance, laundry and more - all in a few taps.
 					</BodyLgParagraph>
