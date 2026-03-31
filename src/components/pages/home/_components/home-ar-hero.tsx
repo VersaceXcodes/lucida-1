@@ -39,7 +39,7 @@ const HomeArHero = () => {
 					</div>
 				</div>
 			</div>
-			<div className="w-full flex items-center justify-center gap-[37px] relative mask-image max-w-max mx-auto">
+			{/* <div className="w-full flex items-center justify-center gap-[37px] relative mask-image max-w-max mx-auto">
 				<img
 					src="./images/ar-hero/1.png"
 					className="w-[248px] h-auto flex-shrink-0"
@@ -68,7 +68,14 @@ const HomeArHero = () => {
 				}}
 				src="./images/ar-hero/3.png"
 				className="w-[305px] h-auto flex-shrink-0 mx-auto mt-[-620px]"
-			/>
+			/> */}
+			<div className="w-full flex items-center justify-center">
+				<img
+					src="./images/Services.jpeg"
+					className="w-full max-w-[600px] h-auto rounded-2xl"
+					alt="Services for Everyday Life"
+				/>
+			</div>
 		</section>
 	);
 };
