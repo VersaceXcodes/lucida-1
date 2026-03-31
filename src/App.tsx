@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router";
 import HomePage from "./components/pages/home";
 import MainLayout from "./components/layout/main-layout";
-import CareersPage from "./components/pages/careers";
+// import CareersPage from "./components/pages/careers";
 import ContactPage from "./components/pages/contact";
 import BecomePartnerPages from "./components/pages/become-partner";
 import HeroPage from "./components/pages/hero";
@@ -18,10 +18,10 @@ const App = () => {
 					index
 					element={<HomePage />}
 				/>
-				<Route
+				{/* <Route
 					path="careers"
 					element={<CareersPage />}
-				/>
+				/> */}
 				<Route
 					path="contact"
 					element={<ContactPage />}
