@@ -87,11 +87,11 @@ const Header = () => {
 					className="py-1.5 px-3 text-secondary/70 transition-colors duration-300 hover:text-secondary">
 					{t("layout.header.features")}
 				</Link>
-				<Link
+				{/* <Link
 					to={"/careers"}
 					className="py-1.5 px-3 text-secondary/70 transition-colors duration-300 hover:text-secondary">
 					{t("layout.header.careers")}
-				</Link>
+				</Link> */}
 				<div className="h-6 w-[1px] bg-faqborderClose max-md:hidden"></div>
 				<Link
 					to={"/contact"}
@@ -196,12 +196,12 @@ const Header = () => {
 							className="py-1.5 px-3 text-secondary/70 transition-colors duration-300 hover:text-secondary">
 							{t("layout.header.features")}
 						</Link>
-						<Link
+						{/* <Link
 							to={"/careers"}
 							onClick={() => setIsMenuOpen(false)}
 							className="py-1.5 px-3 text-secondary/70 transition-colors duration-300 hover:text-secondary">
 							{t("layout.header.careers")}
-						</Link>
+						</Link> */}
 						<div className="h-6 w-[1px] bg-faqborderClose max-md:hidden"></div>
 						<Link
 							to={"/contact"}
