@@ -48,7 +48,7 @@ const ITEMS = [
 	{
 		title: "Grow with a Leading Platform",
 		content:
-			"Join the team behind the first home services app. Develop your skills, grow your career, and be part of something transformative.",
+			"Join the team behind the home services app. Develop your skills, grow your career, and be part of something transformative.",
 		img: "./images/careers/1.png",
 	},
 	{

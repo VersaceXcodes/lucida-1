@@ -8,7 +8,7 @@ const BecomePartnerHero = () => {
 			<div className="max-w-[540px] mx-auto text-center flex flex-col gap-4">
 				<HeadingMd>Become a Service Provider</HeadingMd>
 				<BodyMdParagraph>
-					Join the first home services platform. Reach more customers,
+					Join the home services platform. Reach more customers,
 					manage your bookings easily, and grow your business with Lucida.
 				</BodyMdParagraph>
 			</div>
